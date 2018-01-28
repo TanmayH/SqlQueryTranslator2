@@ -135,7 +135,7 @@ public String bigramize()
    denominator = bigramcount[i] + tracker2;
    results[i] = matches/denominator;
   // System.out.printf("matches= %f,%f",matches,denominator);
-   System.out.println("\n\nThe Bigram Similarity value between " + words[i] + " and " + testword + " is " + results[i]  + ".");
+   //System.out.println("\n\nThe Bigram Similarity value between " + words[i] + " and " + testword + " is " + results[i]  + ".");
    if(results[i]>0.6)
    {
 	   max=results[i]; 
